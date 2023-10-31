@@ -1,0 +1,12 @@
+<?php
+// write a progran in php to print the area and circumference of circle radius is supplied by default parameter.
+function area_peri($radius){
+    
+    $peri = 2 * 3.14 * $radius;
+    $ar = 3.14 * ($radius * $radius);
+   
+    echo $ar ."\n";
+    echo $peri;
+}
+area_peri(9)
+?>
