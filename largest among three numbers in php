@@ -1,0 +1,19 @@
+// write a function in php to print the largest among three number 
+
+<?php
+function largest($x, $y, $z) {
+  $max = $x;
+
+  if ($x >= $y and $x >= $z)
+    $max = $x;
+  if ($y >= $x and  $y >= $z)
+    $max = $y;
+  if ($z >= $x and $z >= $y)
+    $max = $z;
+  
+  echo "Largest number among $x, $y and $z is: $max\n";
+}
+
+largest(100, 50, 25);
+largest(50, 50, 25);
+?>
