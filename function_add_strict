@@ -1,0 +1,8 @@
+<?php
+declare(strict_types = 1);
+function add(int $s, int $t){
+    return $s + $t;
+}
+
+echo add(5,8);
+?>
