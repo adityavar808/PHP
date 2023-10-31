@@ -1,12 +1,16 @@
 <?php
 // write a function in php to print the factrorial of given number
 
-$num = 5;
+function fact($num){
 $fac = 1;
 
 for ($i=$num; $i > 0; $i--){
     $fac = $fac * $i;
     
 }
+
 print $fac;
+}
+
+fact(5)
 ?>
