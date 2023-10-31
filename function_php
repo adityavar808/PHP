@@ -1,0 +1,15 @@
+<?php
+
+function studentName($firstname)
+{
+    echo "$firstname" . "\n";
+}
+
+studentName("aditya");
+studentName("afzal");
+studentName("arjun");
+studentName("alok");
+studentName("aditya");
+studentName("aniket");
+
+?>
