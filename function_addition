@@ -1,0 +1,12 @@
+<?php
+
+function addition($val)
+{
+    $val += 10;
+    echo $val."\n";
+}
+
+$number = 5;
+addition($number);
+echo $number;
+?>
