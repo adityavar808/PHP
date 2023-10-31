@@ -1,0 +1,13 @@
+<?php
+
+declare(strict_types=1);
+
+function setval(int $a = 5){
+    echo "The value is : $a \n";
+}
+setval(50);
+setval();
+setval(13);
+setval(40);
+
+?>
