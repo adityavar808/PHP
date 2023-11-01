@@ -1,0 +1,17 @@
+<?php
+function palindrome($pal)
+{
+    $str_rev = strrev($pal);
+    
+    if ($pal == $str_rev){
+        echo "This is a palindrome.";
+    }
+    
+    else{
+        echo "This is not a palindrome.";
+    }
+}
+
+palindrome("racecar")
+
+?>
