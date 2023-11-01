@@ -1,0 +1,7 @@
+<?php
+function reverse($rev){
+    echo strrev($rev);
+}
+
+reverse("aditya")
+?>
