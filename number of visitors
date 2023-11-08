@@ -1,0 +1,22 @@
+write the program in php to count the number of visitors on your site
+ans. the simple way to count visitors is use method that records the number of visitors based on user sessions or page hits 
+
+
+<?php
+
+//session_start();
+
+if(!isset($_SESSION['visited'])){
+    $SESSION['visited'] = true;
+    
+    if(!isset($_SESSION['visit_count'])){
+        $SESSION['visit_count'] = 1;
+    }
+    
+    else{
+        $SESSION['visit_count']++;
+    }
+}
+
+echo "NUMBER OF VISITORS : " . $SESSION['visit_count'];
+?>
